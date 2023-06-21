@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "types": [
+      "vite/client", // if using vite
+      // ...
+    ],
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
