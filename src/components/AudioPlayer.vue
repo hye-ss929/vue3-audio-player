@@ -46,7 +46,8 @@
         />
       </div>
       <div class="audio__player-time">
-        <span>{{ `${formatSecond(currentTime)} / ${totalTimeStr}` }}</span>
+        <span>{{ `${formatSecond(currentTime)}}</span>
+        <span>{{ `${totalTimeStr}` }}</span>
       </div>
     </div>
     <audio
@@ -198,7 +199,7 @@ export default defineComponent({
     const onAudioPause = () => {
       console.log('onAudioPause')
       state.isPlaying = false
-      clearTimer()
+      // clearTimer()
       emit('pause')
     }
     const onAudioPlay = () => {
