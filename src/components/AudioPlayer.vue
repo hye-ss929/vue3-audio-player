@@ -200,6 +200,7 @@ export default defineComponent({
       console.log('onAudioPause')
       state.isPlaying = false
       // clearTimer()
+      console.log('epgpt')
       emit('pause')
     }
     const onAudioPlay = () => {
