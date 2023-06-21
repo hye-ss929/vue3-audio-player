@@ -694,8 +694,7 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
         }, null, 36)
       ], 512),
       createElementVNode("div", _hoisted_9, [
-        createElementVNode("span", null, toDisplayString(`${_ctx.formatSecond(_ctx.currentTime)}`), 1),
-        createElementVNode("span", null, toDisplayString(`${_ctx.totalTimeStr}`), 1)
+        createElementVNode("span", null, toDisplayString(`${_ctx.formatSecond(_ctx.currentTime)}`), 1)
       ])
     ]),
     createElementVNode("audio", {
@@ -709,5 +708,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     }, null, 40, _hoisted_10)
   ]);
 }
-var AudioPlayer = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-ce84fc52"]]);
+var AudioPlayer = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render], ["__scopeId", "data-v-1e0ca532"]]);
 export { AudioPlayer as default };
