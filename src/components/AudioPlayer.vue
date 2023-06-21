@@ -47,7 +47,7 @@
       </div>
       <div class="audio__player-time">
         <span>{{ `${formatSecond(currentTime)}` }}</span>
-<!--        <span>{{ `${totalTimeStr}` }}</span>-->
+        <span id="span">{{ `${totalTimeStr}` }}</span>
       </div>
     </div>
     <audio
